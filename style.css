@@ -149,7 +149,7 @@ h1 {
 
 .recent_news {
   margin-top: 80px;
-  max-height: 560px;
+  margin-bottom: 80px;
   margin: 20px 50px 50px 100px;
 }
 .section_description {
@@ -180,6 +180,7 @@ h1 {
   background: rgb(249, 253, 254);
   gap: 25px;
   padding: 48px;
+  margin-bottom: 80px;
 }
 img {
   border-radius: 24px;
@@ -188,4 +189,74 @@ img {
 p {
   padding: 10px;
   text-align: left;
+}
+
+.donate_for_bangladesh p , .donate_title, .donate_card{
+text-align: center;
+margin-bottom: 10px;
+}
+.donate_for_bangladesh{
+  width: 1071px;
+  margin: 0 auto;
+  
+}
+.donate_card{
+  display: flex;
+  max-height: 560px;
+  justify-content: center;
+  width: 1071px;
+  gap: 40px;
+}
+.donate_card1{
+  
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  font-size: 30px;
+font-weight: 700;
+  
+}
+.donate_title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.clr{
+background: rgb(198, 228, 214);
+}
+
+.input_field{
+  width: 900px;
+height: 64px;
+margin: 10px 100px;
+ box-sizing: border-box;
+background: rgb(255, 255, 255);
+padding: 20px 40px;
+text-align: center;
+Font-weight: 400;
+Font-size: 16px;
+border: none;
+}
+
+.btn_primary{
+  margin-top: 20px;
+  Font-weight: 400;
+Font-size: 20px;
+
+  
+}
+.donate_btn{
+  text-align: center;
+
+}
+.dbtn {
+  border-radius: 8px;
+  background: rgb(4, 122, 92);
+  padding: 13px 22px 13px 22px;
+  color: white;
+  font-weight: 300;
+  font-family: "Fira Sans", serif;
+  font-weight: 600;
+  border: none;
 }
