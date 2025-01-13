@@ -8,12 +8,12 @@
   margin: 0 auto;
 }
 main {
-  max-width: 1300px;
- 
+  max-width: 1600px;
+  background-color: #f5f5f5;
+  height: 3390px;
+  margin-bottom: 80px;
 }
-body{
-  background-color: #F5F5F5;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,13 +24,13 @@ body{
   justify-content: space-between;
   background: rgb(196, 230, 214);
   max-height: 560px;
-  margin: 20px 50px 50px 100px;
+  margin: 0px 80px 80px 80px;
   padding: 80px 50px;
   gap: 30px;
   border-radius: 24px;
 }
-.explore_inside_1 p,
-h1 {
+.explore_inside_1 .Bangladesh,
+.idea {
   margin-bottom: 16px;
 }
 .explore_inside_1 {
@@ -58,13 +58,17 @@ h1 {
   font-weight: 600;
   border: none;
 }
+.btn:hover {
+  background-color: rgb(228, 22, 22);
+  color: #ffffff;
+}
 
 .vision {
   margin-top: 80px;
   max-height: 560px;
-  margin: 20px 50px 50px 100px;
+  margin: 0px 80px 80px 80px;
 }
-.vision h1 {
+.vision .vision_title {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 24px;
@@ -98,13 +102,13 @@ h1 {
   background: rgb(247, 235, 207);
 }
 
-.card img {
+.card .card_img {
   margin-bottom: 16px;
 }
-.card h3 {
+.card .card_title {
   margin-bottom: 10px;
 }
-.card p {
+.card .card_description {
   margin-bottom: 30px;
 }
 
@@ -115,42 +119,69 @@ h1 {
   color: white;
   font-weight: 300;
   font-family: "Fira Sans", serif;
-  font-weight: 600;
+  font-weight: 600;}
+
+  .btn_blue{
+   background: rgb(84, 144, 245);
+
+  }
+  .btn_green{
+    background: rgb(9, 161, 92);
+  }
+.btn_yellow{
+  background: rgb(255, 194, 57);
 }
+ .btn1:hover {
+  background-color: rgb(228, 22, 22);
+  color: #ffffff;
+}
+
 .quote_section {
   margin-top: 80px;
   max-height: 560px;
-  margin: 20px 50px 50px 100px;
+  margin: 0px 80px 80px 80px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
-  padding: 40px 24px 40px 24px;
+  padding: 24px 24px 30px 26px;
+
 }
 
-.quote_section p {
+.quote_section .quotation_tag {
   margin-bottom: 16px;
   color: rgba(14, 14, 14, 0.8);
   font-weight: 400;
   font-size: 16px;
 }
-
-.quote_section h5 {
+.quote_section .quotation_tag1 {
+  margin-bottom: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: 400;
+  font-size: 16px;
+}
+.quote_section h5{
+  padding-left: 1px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.quote_section  {
   font: Fira Sans;
   font-weight: 600;
   font-size: 20px;
+ 
 }
 .quotation_tag {
   background-image: url("assets/quote-bg.png");
   background-repeat: no-repeat;
   background-position: top left;
   background-size: 45px 45px;
+  padding-left: 1px;
+  padding-top: 17px;
 }
 
 .recent_news {
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin: 20px 50px 50px 100px;
+ 
+  margin: 0px 80px 80px 80px;
 }
 .section_description {
   margin-bottom: 30px;
@@ -182,74 +213,89 @@ h1 {
   padding: 48px;
   margin-bottom: 80px;
 }
-img {
+.btn2 {
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  border: none;
+  color: white;
+  font-weight: 300;
+  font-family: "Fira Sans", serif;
+  font-weight: 600;}
+
+  .btn2:hover {
+    background-color: rgb(228, 22, 22);
+    color: #ffffff;
+}
+.news_img {
   border-radius: 24px;
 }
-.satellite_part1 img,
-p {
-  padding: 10px;
+.satellite_title, .al-jazeera,.News_date,
+.satellite_description {
+margin-bottom: 10px;
   text-align: left;
 }
 
-.donate_for_bangladesh p , .donate_title, .donate_card{
-text-align: center;
-margin-bottom: 10px;
+.donate_for_bangladesh p,
+.donate_title,
+.donate_card {
+  text-align: center;
+  margin-bottom: 10px;
 }
-.donate_for_bangladesh{
+.donate_for_bangladesh {
   width: 1071px;
   margin: 0 auto;
-  
 }
-.donate_card{
+.donate_card {
   display: flex;
   max-height: 560px;
   justify-content: center;
   width: 1071px;
   gap: 40px;
 }
-.donate_card1{
-  
+.donate_card1 {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
   padding: 40px;
   font-size: 30px;
-font-weight: 700;
-  
+  font-weight: 700;
 }
-.donate_title{
-    font-weight: 700;
-    font-size: 40px;
+.donate_title {
+  font-weight: 700;
+  font-size: 40px;
 }
-.clr{
-background: rgb(198, 228, 214);
+.clr {
+  background: rgb(198, 228, 214);
 }
 
-.input_field{
+.clr9:hover {
+  background: rgb(198, 228, 214);
+  color: #ff0000;
+}
+
+.input_field {
   width: 900px;
-height: 64px;
-margin: 10px 100px;
- box-sizing: border-box;
-background: rgb(255, 255, 255);
-padding: 20px 40px;
-text-align: center;
-Font-weight: 400;
-Font-size: 16px;
-border: none;
-}
-
-.btn_primary{
-  margin-top: 20px;
-  Font-weight: 400;
-Font-size: 20px;
-
-  
-}
-.donate_btn{
+  height: 64px;
+  margin: 10px 90px;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  padding: 20px 40px;
   text-align: center;
-
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
 }
+
+.btn_primary {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.donate_btn {
+  text-align: center;
+}
+
 .dbtn {
   border-radius: 8px;
   background: rgb(4, 122, 92);
@@ -259,4 +305,81 @@ Font-size: 20px;
   font-family: "Fira Sans", serif;
   font-weight: 600;
   border: none;
+  margin-bottom: 80px;
+}
+.dbtn:hover {
+  background-color: rgb(228, 22, 22);
+  color: #ffffff;
+}
+.news_letter {
+  text-align: center;
+ 
+  margin: 0px 80px 80px 80px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 60px 80px;
+  margin-bottom: 80px;
+}
+
+.news_letter_title,
+.news_letter_description,
+.news_letter_input {
+  margin-bottom: 15px;
+}
+.news_letter_description2,
+.news_letter_description {
+  text-align: center;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.news_letter_title {
+  font-weight: 700;
+  font-size: 40px;
+}
+.news_letter_input {
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  width: 600px;
+  padding: 18px 40px 18px 40px;
+  border: none;
+}
+
+.news_letter_btn {
+  background: rgb(4, 122, 92);
+  padding: 17px 24px 18px 24px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0px 8px 8px 0px;
+  margin-left: -4px;
+  border: none;
+}
+.news_letter_btn:hover {
+  background-color: rgb(228, 22, 22);
+  color: #ffffff;
+}
+footer{
+
+  text-align: center;
+  width: 1071px;
+  margin: 0 auto;
+  
+}
+footer .asset , .bd , hr{
+  margin-bottom: 25px;
+}
+.bd{
+font-size: 32px;
+font-weight: 700;
+}
+.bd{
+  margin-top: 80px;
+}
+footer .asset{
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+
 }
