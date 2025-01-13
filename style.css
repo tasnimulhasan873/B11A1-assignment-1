@@ -4,11 +4,16 @@
   font-family: "Fira Sans", serif;
   font-weight: 400;
   font-style: normal;
+
+  margin: 0 auto;
 }
 main {
   max-width: 1300px;
+ 
 }
-
+body{
+  background-color: #F5F5F5;
+}
 * {
   margin: 0;
   padding: 0;
@@ -59,6 +64,11 @@ h1 {
   max-height: 560px;
   margin: 20px 50px 50px 100px;
 }
+.vision h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
 
 .main_card {
   display: flex;
@@ -107,7 +117,7 @@ h1 {
   font-family: "Fira Sans", serif;
   font-weight: 600;
 }
-.qutoe_section {
+.quote_section {
   margin-top: 80px;
   max-height: 560px;
   margin: 20px 50px 50px 100px;
@@ -118,23 +128,64 @@ h1 {
   padding: 40px 24px 40px 24px;
 }
 
-.qutoe_section p{
-    margin-bottom: 16px;
-    color: rgba(14, 14, 14, 0.8);
-Font-weight: 400;
-Font-size: 16px;
+.quote_section p {
+  margin-bottom: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.qutoe_section h5{
-    Font: Fira Sans;
-Font-weight: 600;
-Font-size: 20px;
-
+.quote_section h5 {
+  font: Fira Sans;
+  font-weight: 600;
+  font-size: 20px;
 }
-.qutation_tag{
-      background-image: url('assets/quote-bg.png');
-        background-repeat: no-repeat;
-        background-position: top left;
-        background-size: 45px 45px;
-    
+.quotation_tag {
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 45px 45px;
+}
+
+.recent_news {
+  margin-top: 80px;
+  max-height: 560px;
+  margin: 20px 50px 50px 100px;
+}
+.section_description {
+  margin-bottom: 30px;
+}
+.section_title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.news_card1 {
+  display: flex;
+  align-items: center;
+  background: rgb(169, 19, 19);
+  box-sizing: border-box;
+  border-radius: 24px;
+  background: rgb(249, 253, 254);
+  margin-bottom: 20px;
+  gap: 25px;
+  padding: 48px;
+}
+.news_card2 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 24px;
+  background: rgb(249, 253, 254);
+  gap: 25px;
+  padding: 48px;
+}
+img {
+  border-radius: 24px;
+}
+.satellite_part1 img,
+p {
+  padding: 10px;
+  text-align: left;
 }
